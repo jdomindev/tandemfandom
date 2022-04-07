@@ -4,7 +4,7 @@
 
 A fully functioning user friendly web application designed for those seeking to match users with similar interests by their specific fandom. Users can use application to find love, friendship, network, etc. in a safe and responsive environment.
 
-TandomFandom is MERN stack app, was made combining a Node.js/Express.js server with a React front-end. The back-end also includes MongoDB with GraphQL. Furthermore, JWT was used to implement authentication for all users.
+TandemFandom is MERN stack app, was made combining a Node.js/Express.js server with a React front-end. The back-end also includes MongoDB with GraphQL. Furthermore, JWT was used to implement authentication for all users.
 
 ## Table of Contents
 
@@ -21,11 +21,18 @@ TandomFandom is MERN stack app, was made combining a Node.js/Express.js server w
 
 ## Deployment
 
-TandemFandem is deployed on Heroku at: https://tandemfandom.herokuapp.com/
+TandemFandom is deployed on Heroku at: https://tandemfandom.herokuapp.com/
 
 ## Installation
 
-To run the app locally, clone the repository to your local development environment. Run npm install to install all dependencies. Source both the schema in MySQL. In a command terminal, navigate to the correct directory and first seed the application by running the command 'npm run build' and then start the server using the command 'npm start'.
+- To preview the deployed site a guest user "Rocky" may be used. His credentials can be found here:
+  ```md 
+  Email: therock@rocksmock.com
+  Password: password01
+  ```
+- To run the app locally, clone the repository to your local development environment. Run npm install to install all dependencies. Source both the schema in MySQL. In a command terminal, navigate to the correct directory and first seed the application by running the command 'npm run build' and then start the server using the command 'npm start'.
+
+
 
 ## User Story
 
@@ -37,7 +44,12 @@ SO THAT I can talk to and meet other people with the same interests
 
 ## Usage
 
-![Screenshot of Final Code]
+- Screenshots:
+    ![Landing](./client/public/images/screenshots/landing.png)
+    ![Profile](./client/public/images/screenshots/profile.png)
+    ![Match](./client/public/images/screenshots/find-match.png)
+    ![Connections](./client/public/images/screenshots/your-connections.png)
+    
 
 ## Credits
 
